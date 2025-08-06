@@ -5,8 +5,21 @@ services:
     buildCommand: npm install
     startCommand: node index.js
     plan: free
+    rootDir: backend
     envVars:
       - key: NODE_ENV
         value: production
       - key: PORT
-        value: 3000
+        generateValue: true
+      - key: MONGO_URI
+        sync: false  # You'll need to set this manually
+      - key: JWT_SECRET_KEY
+        sync: false  # You'll need to set this manually
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false  # You'll need to set this manually
+      - key: CLOUDINARY_API_KEY
+        sync: false  # You'll need to set this manually
+      - key: CLOUDINARY_API_SECRET
+        sync: false  # You'll need to set this manually
+      - key: FRONTEND_URL
+        sync: false  # You'll set this after frontend deployment
