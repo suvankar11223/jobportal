@@ -1,0 +1,157 @@
+{
+  "overview": {
+    "totalJobs": 1250,
+    "totalApplications": 89,
+    "viewsThisMonth": 340,
+    "successRate": 12,
+    "avgTimeToHire": "18 days",
+    "responseRate": "76%"
+  },
+  "trends": [
+    {
+      "month": "Jan",
+      "applications": 45,
+      "jobs": 12
+    },
+    {
+      "month": "Feb",
+      "applications": 52,
+      "jobs": 18
+    },
+    {
+      "month": "Mar",
+      "applications": 48,
+      "jobs": 15
+    },
+    {
+      "month": "Apr",
+      "applications": 65,
+      "jobs": 22
+    },
+    {
+      "month": "May",
+      "applications": 58,
+      "jobs": 19
+    },
+    {
+      "month": "Jun",
+      "applications": 72,
+      "jobs": 28
+    }
+  ],
+  "demographics": {
+    "experienceLevel": [
+      {
+        "level": "Entry (0-2)",
+        "count": 125,
+        "percentage": 35
+      },
+      {
+        "level": "Mid (3-5)",
+        "count": 98,
+        "percentage": 28
+      },
+      {
+        "level": "Senior (6-10)",
+        "count": 87,
+        "percentage": 24
+      },
+      {
+        "level": "Lead (10+)",
+        "count": 45,
+        "percentage": 13
+      }
+    ],
+    "location": [
+      {
+        "city": "New York",
+        "count": 89
+      },
+      {
+        "city": "San Francisco",
+        "count": 76
+      },
+      {
+        "city": "Austin",
+        "count": 54
+      },
+      {
+        "city": "Seattle",
+        "count": 43
+      },
+      {
+        "city": "Remote",
+        "count": 112
+      }
+    ]
+  },
+  "topSkills": [
+    {
+      "skill": "React",
+      "demand": 95,
+      "avgSalary": 85000
+    },
+    {
+      "skill": "Node.js",
+      "demand": 87,
+      "avgSalary": 82000
+    },
+    {
+      "skill": "Python",
+      "demand": 92,
+      "avgSalary": 88000
+    },
+    {
+      "skill": "AWS",
+      "demand": 78,
+      "avgSalary": 95000
+    },
+    {
+      "skill": "TypeScript",
+      "demand": 73,
+      "avgSalary": 87000
+    },
+    {
+      "skill": "MongoDB",
+      "demand": 65,
+      "avgSalary": 75000
+    }
+  ],
+  "salaryTrends": [
+    {
+      "role": "Frontend Developer",
+      "min": 60000,
+      "max": 120000,
+      "avg": 85000,
+      "trend": 8
+    },
+    {
+      "role": "Backend Developer",
+      "min": 65000,
+      "max": 130000,
+      "avg": 92000,
+      "trend": 12
+    },
+    {
+      "role": "Full Stack Developer",
+      "min": 70000,
+      "max": 140000,
+      "avg": 98000,
+      "trend": 15
+    },
+    {
+      "role": "DevOps Engineer",
+      "min": 75000,
+      "max": 150000,
+      "avg": 105000,
+      "trend": 18
+    },
+    {
+      "role": "Data Scientist",
+      "min": 80000,
+      "max": 160000,
+      "avg": 115000,
+      "trend": 22
+    }
+  ]
+}
